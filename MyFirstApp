@@ -1,0 +1,24 @@
+//
+//  ViewController.swift
+//  MyFirstApp
+//
+//  Created by John Domingo on 3/29/23.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var MyLabel: UILabel!
+    @IBOutlet weak var ImageView: UIImageView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func MyButton(_ sender: Any) {
+        ImageView.image = UIImage(named: "night-sky")
+    }
+    
+}
+
